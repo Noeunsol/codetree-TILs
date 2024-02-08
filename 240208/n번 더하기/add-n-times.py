@@ -1,5 +1,5 @@
-a, n = list(map(int, input.split()))
+a, n = list(map(int, input().split()))
 
 for i in range(n):
-    i = a+n
-    print(i)
+    a += n
+    print(a)
